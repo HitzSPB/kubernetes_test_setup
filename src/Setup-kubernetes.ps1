@@ -1,0 +1,1 @@
+kubectl create -f $PSScriptRoot/pods/sqlserver.pod.yml --validate=true

@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: bolig-sql-server
+  labels:
+    name: bolig-sql-server-2021.4.200
+spec:
+  containers:
+  - name: bolig-sql-server
+    image: microsoft/mssql-server-windows-developer
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
+    ports:
+      - containerPort: 1433
