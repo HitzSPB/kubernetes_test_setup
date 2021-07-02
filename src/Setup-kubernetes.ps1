@@ -10,5 +10,7 @@ else {
 # Log information to check what is running
 
 
+# Debug information
 Write-Host "Setting up pods completed"
 kubectl get pods | Write-Host
+kubectl describe pod | Write-Host
