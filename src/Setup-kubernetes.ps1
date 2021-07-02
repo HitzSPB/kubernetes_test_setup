@@ -1,3 +1,5 @@
+$debugInfo = $true # Change to param switch
+
 $PodsAvailable = kubectl get pods
 
 if($PodsAvailable -contains "bolig-sql-server") {
@@ -9,8 +11,12 @@ else {
 
 # Log information to check what is running
 
-
-# Debug information
+# Setup Completed information
 Write-Host "Setting up pods completed"
 kubectl get pods | Write-Host
-kubectl describe pod | Write-Host
+
+
+# Debug information
+if($debugInfo){
+    kubectl describe pod | Write-Host
+}
