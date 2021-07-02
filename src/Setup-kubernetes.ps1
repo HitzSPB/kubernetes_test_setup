@@ -10,5 +10,5 @@ else {
 # Log information to check what is running
 
 
-# Write-Host "---"
-# Write-Host $PodsAvailable
+Write-Host "Setting up pods completed"
+kubectl get pods | Write-Host
