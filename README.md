@@ -48,6 +48,11 @@ https://hackr.io/blog/best-docker-certification (Official?/ Docker Certified Ass
 ![Kubernetes activity amount](https://i.gyazo.com/66d5471e00b9262d993ac5cb079b2d8a.png)
 https://github.com/kubernetes/kubernetes/tree/master/CHANGELOG
 
+### Pros and cons
+https://phoenixnap.com/blog/kubernetes-vs-docker-swarm
+https://www.ibm.com/cloud/blog/docker-swarm-vs-kubernetes-a-comparison
+
+
 ### Installation of kubernetes
 
 Open ports
