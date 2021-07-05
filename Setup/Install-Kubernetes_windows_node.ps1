@@ -1,3 +1,6 @@
+#Mere simpel måde - https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/ omskriv script
+
+
 $BaseDir = "c:\k"
 New-Item -Path "c:\" -Name "k" -ItemType "directory"
 Set-Location -Path $BaseDir
